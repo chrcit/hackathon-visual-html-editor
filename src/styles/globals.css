@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  :root {
+    --color-gray: #F0F0F0;
+    --color-gray-dark: #E0E0E0;
+  }
+
+  html,
+  body,
+  #__next {
+    @apply w-full h-full;
+  }
+}

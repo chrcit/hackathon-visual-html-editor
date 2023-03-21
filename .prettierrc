@@ -1,0 +1,9 @@
+{
+  "trailingComma": "all",
+  "singleQuote": false,
+  "printWidth": 120,
+  "tabWidth": 2,
+  "scripts": {
+    "format": "prettier --write"
+  }
+}

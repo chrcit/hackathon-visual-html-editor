@@ -1,0 +1,11 @@
+.explorer-node {
+  @apply flex items-center text-xs h-8 border-y-[1px] border-transparent w-full cursor-default;
+}
+
+.explorer-node--selected {
+  @apply bg-blue-100;
+}
+
+.explorer-node--hovered:not(.explorer-node--selected) {
+  @apply bg-blue-50 border-blue-300;
+}
